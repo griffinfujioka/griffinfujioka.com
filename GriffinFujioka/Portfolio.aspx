@@ -1,28 +1,13 @@
-﻿<%@ Page Title="Griffin Fujioka" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-
-<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1><%: Title %>.</h1>
-            </hgroup>
-            <p>
-                I am a software developer finishing up my degree at Washington State University. I'll be graduating in December 2013. 
-                <br />
-                
-                <br />
-                I've released a number of apps for Windows Phone and Windows 8. Please bear with me as I try my hand at web development!
-            </p>
-        </div>
-    </section>
-</asp:Content>
+﻿<%@ Page Title="Portfolio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Portfolio.aspx.cs" Inherits="Portfolio" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>Check out some of the apps I've worked on or check out a more detailed <a href="Portfolio.aspx" style="text-decoration : none; color : #999999">portfolio</a>!</h3>
-    <br />
+    <hgroup class="title">
+        <h1><%: Title %></h1>
+    </hgroup>
+
     <section id="ideas_content">
         <div style="width: 30%; float:left">
-            <div id="IdeasPic"><img src="Images/IdeasSplashScreen.jpg" height="280" width="200" /></div>
+            <div id="IdeasPic"><img src="Images/IdeasSplashScreen.jpg" height="240" width="160" /></div>
         </div>
 
         <div style="width: 70%; float:right">
@@ -40,9 +25,12 @@
         </div>
 
     </section>
-    <div style="height : 1000px;" />
+    
     <section id="christmas_countdown_content">
         <div style="width: 30%; float:left">
+            <div id="Top100Pic"><img src="Images/ChristmasCountdownSplash.png" height="280" width="200"/></div>
+        </div>
+        <div style="width: 70%; float:right">
             <div id="ChristmasText" style="height : 540px;">
                 <br />
                 <br />
@@ -56,9 +44,6 @@
                 </p>
                 
             </div>
-        </div>
-        <div style="width: 70%; float:right">
-            <div id="Top100Pic"><img src="Images/Top 100 apps!.PNG" height="580" width="760"/></div>
         </div>
 
     </section> 
@@ -78,4 +63,6 @@
              </p>
           </div>
     </section>
+    
 </asp:Content>
+

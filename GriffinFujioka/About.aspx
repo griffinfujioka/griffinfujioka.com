@@ -2,33 +2,21 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %>.</h1>
-        <h2>Your app description page.</h2>
+        <h1><%: Title %></h1>
     </hgroup>
 
     <article>
-        <p>        
-            Use this area to provide additional information.
+        <p> 
+            I'm a student at Washington State University. 
+            In December 2013 I'll be graduating with a B.S. in Computer Science and minors in Math and MIS. 
         </p>
-
-        <p>        
-            Use this area to provide additional information.
-        </p>
-
-        <p>        
-            Use this area to provide additional information.
+        <br />
+        <br />
+        <p>
         </p>
     </article>
 
     <aside>
-        <h3>Aside Title</h3>
-        <p>        
-            Use this area to provide additional information.
-        </p>
-        <ul>
-            <li><a runat="server" href="~/">Home</a></li>
-            <li><a runat="server" href="~/About.aspx">About</a></li>
-            <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
-        </ul>
+        <img src="Images/SF ACM.jpeg" width="210" height="210" />
     </aside>
 </asp:Content>
