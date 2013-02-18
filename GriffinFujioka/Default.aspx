@@ -18,6 +18,53 @@
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <h3>Check out some of the apps I've worked on!</h3>
+    <br />
+    <section id="content">
+
+        <div style="width: 30%; float:left">
+            <div id="IdeasPic"><img src="Images/IdeasSplashScreen.jpg" height="280" width="200" /></div>
+            <br /> 
+            <br />
+            <div id="ChristmasText">
+                <p>
+                    Christmas Countdown is a Windows 8 application that counts down the days, minutes, hours and seconds until Christmas while snow falls in the background. 
+                </p>
+                <br />
+                <p>
+                    Christmas Countdown was published in September 2013, before Windows 8 was released. Due to the early release it experienced some success and was even shown as a top 100 app amongst entertainment apps. 
+                </p>
+                
+            </div>
+            <br /> 
+            <br />
+            <div id="EZConverterPic"><img src="Images/EZBaseConverter.png" height="280" width="200" /></div>
+        </div>
+
+        <div style="width: 70%; float:right">
+            <div id="IdeasText">
+                <p>
+                    Ideas is a note taking application designed specifically for saving, refining and sharing software ideas. Ideas was created by the WSU Windows Phone Development group and published to the Windows Phone marketplace in the summer of 2012
+                    <br />
+                    <br />
+                    Ideas are stored in the form of a Title, Overview, set of System Requirements, set of Use Cases and a section for Notes. They were designed in this way to make them easily translated to UML diagrams and software documentation (i.e., use cases, class diagrams, requirements specification).
+                </p>
+            </div>
+            <br />
+            <br />
+            <br /> 
+            <br />
+            <br /> 
+            <br />
+            <br /> 
+            <br /> 
+            <div id="Top100Pic"><img src="Images/Top 100 apps!.PNG" height="480" width="630" /></div>
+            <br />
+            
+        </div>
+
+    </section>
+    <!--
     <h3>We suggest the following:</h3>
     <ol class="round">
         <li class="one">
@@ -36,5 +83,5 @@
             You can easily find a web hosting company that offers the right mix of features and price for your applications.
             <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Learn more…</a>
         </li>
-    </ol>
+    </ol> -->
 </asp:Content>

@@ -40,8 +40,8 @@
                 <p class="site-title">
                     <a runat="server" href="~/"><!--your logo here--></a></p>
             </div>
-            <div class="float-right">
-                <section id="login">
+            <div class="float-left">
+                <!--<section id="login">
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul>
@@ -58,12 +58,15 @@
                             </p>
                         </LoggedInTemplate>
                     </asp:LoginView>
-                </section>
+                </section>-->
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About.aspx">About</a></li>
+                        <li><a id="A1" runat="server" href="http://www.github.com/griffinfujioka">Github</a></li>
+
                         <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                        
                     </ul>
                 </nav>
             </div>
@@ -79,7 +82,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p>
-                    &copy; <%: DateTime.Now.Year %> - My ASP.NET Application
+                    &copy; <%: DateTime.Now.Year %> - Griffin Fujioka
                 </p>
             </div>
         </div>
