@@ -24,7 +24,7 @@
         <div id="tweetMapsDiv" style="padding-bottom:40px">
             <div style="width: 50%; float: left">
                 <div id="tweetMapsPic">
-                    <img src="Images/tweetMaps.png" height="280" width="420" />
+                    <img src="Images/tweetMaps.png" height="280" width="360" />
                 </div>
             </div>
             <div style="width: 50%; float: right">
@@ -71,7 +71,7 @@
             </div>
             <div style="width: 70%; float: right">
                 <div id="Top100Pic">
-                    <img src="Images/ChristmasCountdownTop100.PNG" height="500" width="700" style="padding-left:10px" />
+                    <img src="Images/ChristmasCountdownTop100.PNG" height="500" width="700" style="padding-left:20px" />
                 </div>
             </div>
 
