@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="Portfolio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Portfolio.aspx.cs" Inherits="Portfolio" %>
 
 <asp:Content runat="server" ID="PortfolioContent" ContentPlaceHolderID="MainContent">
+    <h1>Portfolio</h1>
+    <br />
     <h2>Windows 8 apps</h2>
     <br />
 
@@ -10,7 +12,7 @@
                 <div id="ChristmasText" style="height: 280px;">
                     <br />
                     <p>
-                        <b>Christmas Countdown</b> is a Windows 8 application that counts down the days, minutes, hours and seconds until Christmas while snow falls in the background. 
+                        <a href="http://apps.microsoft.com/windows/en-US/app/christmas-countdown-free/288494e0-8d29-459e-a44f-ee4431791685" style="text-decoration: none; color: #999999"><b>Christmas Countdown</b></a> is a Windows 8 application that counts down the days, minutes, hours and seconds until Christmas while snow falls in the background. 
                     </p>
                     <br />
                     <p>
@@ -38,7 +40,7 @@
                 <br />
                 <br />
                 <p>
-                    <b>EZ Base Converter</b> converts between binary, decimal, hexadecimal and octal in real time. It was the first app I released for Windows 8 and was published in September 2012. 
+                     <a href="http://apps.microsoft.com/windows/en-US/app/ez-base-converter/d9ecd08e-1185-425c-b9dc-87136a6f09de" style="text-decoration: none; color: #999999"><b>EZ Base Converter</b></a> converts between binary, decimal, hexadecimal and octal in real time. It was the first app I released for Windows 8 and was published in September 2012. 
                  Perhaps there is a soft spot in my heart for this app because it was my first for Windows 8 and appeals to true nerds.
                 </p>
             </div>
@@ -51,7 +53,7 @@
                 <div id="CustomCountdown" style="height: 280px;">
                     <br />
                     <p>
-                        <b>Custom Countdown</b> is a Windows 8 application that allows users to set their own countdown date and counts down the days, minutes, hours and seconds until the set date.
+                         <a href="http://apps.microsoft.com/windows/en-US/app/custom-countdown/ece695d4-05c2-4882-9000-8d15cf4b8171" style="text-decoration: none; color: #999999"><b>Custom Countdown</b></a> is a Windows 8 application that allows users to set their own countdown date and counts down the days, minutes, hours and seconds until the set date.
                     </p>
                     <br />
                     <p>
@@ -66,6 +68,8 @@
                 </div>
             </div>
         </div>
+        <br />
+        <h3>Links to all Windows 8 apps:</h3>
         <br />
         <h2>Windows Phone Apps</h2>
         <br />
@@ -88,7 +92,9 @@
                     </p>
                 </div>
             </div>
-
         </div>
+
+        <br />
+        <h3>Links to all Windows 8 apps:</h3>
     </div>
 </asp:Content>
