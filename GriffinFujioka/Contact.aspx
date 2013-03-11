@@ -5,45 +5,63 @@
         <h1><%: Title %></h1>
     </hgroup>
 
-    <section class="contact">
-        <header>
-            <h3>Phone:</h3>
-        </header>
-        <p>
-            <span class="label">Main:</span>
-            <span>425.555.0100</span>
-        </p>
-        <p>
-            <span class="label">After Hours:</span>
-            <span>425.555.0199</span>
-        </p>
-    </section>
+    
+
+    <ol class="round">
+        
+        <li>
+            <a href="http://www.twitter.com/griffinfujioka">Twitter</a>
+        </li>
+
+        <li>
+            <a href="http://www.linkedin.com/profile/view?id=63016629&trk=tab_pro">LinkedIn</a>
+        </li>
+
+        <li>
+            <a href="http://www.facebook.com/griffinfujioka">Facebook</a>
+        </li>
+        
+    </ol>
 
     <section class="contact">
         <header>
-            <h3>Email:</h3>
+            <h3>Other links:</h3>
         </header>
-        <p>
-            <span class="label">Support:</span>
-            <span><a href="mailto:Support@example.com">Support@example.com</a></span>
-        </p>
-        <p>
-            <span class="label">Marketing:</span>
-            <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
-        </p>
-        <p>
-            <span class="label">General:</span>
-            <span><a href="mailto:General@example.com">General@example.com</a></span>
-        </p>
+        <ol class="round">
+            <li>
+                <a href="http://www.github.com/griffinfujioka">Github</a> - check out all of my past projects and follow my coding activity
+            </li>
+            <li>
+                <a href="http://www.griffinfujioka.tumblr.com">Tumblr</a> - my multimedia blog
+            </li>
+            <li>
+                <a href="http://www.8tracks.com/griffinfujioka">8tracks</a> - my playlists
+            </li>
+            <li>
+                <a href="http://www.windowsphone.com/en-us/store/search?q=griffin+fujioka">Windows Phone Apps</a>
+            </li>
+        </ol>
+        
     </section>
 
-    <section class="contact">
-        <header>
-            <h3>Address:</h3>
-        </header>
-        <p>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399
-        </p>
-    </section>
+    <!--
+    <h3>Send an e-mail</h3>
+    <section>
+        <h6>Title</h6>
+        <asp:TextBox id="titleTxtBox" runat="server" />
+        
+        <h6>Message</h6>
+        
+        <textarea name="emailContent" id="emailContentTxtBox" rows="4" cols="50" runat="server">
+        </textarea>
+       
+        
+
+        <h6>Sender e-mail</h6>
+        <asp:TextBox id="senderEmailTxtBox" runat="server" />
+         <br />
+        <asp:Button id="submit_button" OnClick="submit" Text="Submit" runat="server" />
+    </section>-->
+
+    
 </asp:Content>
