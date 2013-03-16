@@ -29,13 +29,13 @@
         </header>
         <ol class="round">
             <li>
-                <a href="http://www.github.com/griffinfujioka">Github</a> - check out all of my past projects and follow my coding activity
+                <a href="http://www.github.com/griffinfujioka">Github</a> - check out past coding projects and follow my coding activity
             </li>
             <li>
-                <a href="http://www.griffinfujioka.tumblr.com">Tumblr</a> - my multimedia blog
+                <a href="http://www.griffinfujioka.tumblr.com">Tumblr</a> - multimedia blog
             </li>
             <li>
-                <a href="http://www.8tracks.com/griffinfujioka">8tracks</a> - my playlists
+                <a href="http://www.8tracks.com/griffinfujioka">8tracks</a> - playlists
             </li>
             <li>
                 <a href="http://www.windowsphone.com/en-us/store/search?q=griffin+fujioka">Windows Phone Apps</a>
